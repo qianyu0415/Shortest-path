@@ -6,7 +6,7 @@ void CreateGraph(MTGraph* G)
 	ifstream file("test.txt");
 	file >> G->n;
 	file >> G->e;
-	//初始化
+	// 初始化
 	for (int i = 0; i < G->n; i++)
 	{
 		for (int j = 0; j < G->n; j++)
